@@ -1,0 +1,121 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: black;
+    line-height: 5%;
+    
+}
+
+.logo {
+    font-size: 15px;
+    color: #00D861;
+}
+
+@media (max-width: 600px) { 
+    .logo {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        line-height: 100%;
+    }
+}
+
+.logo:hover {
+    
+    font-size: larger;
+    color: rgb(219, 219, 4);
+    
+    
+    
+    
+    
+}
+
+#img-fundo {
+    width: 98.785vw !important;
+    height: 100vh !important;
+    z-index: -1;
+    position: fixed;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    background-color: #00D861;    
+}
+
+.menu span {
+    color: black
+}
+
+span:hover {
+    color: rgb(219, 219, 4);
+}
+
+#quemsomos {
+    width: 75%;
+    margin: auto;
+}
+
+#secao1 {
+    display: flex;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+    justify-content: space-around;
+    
+    
+}
+
+#quemsomos h1:hover {
+    color: #00D861
+}
+
+
+#div2, #div1 {
+    display: flex;
+    width: 25%;
+    margin: 0 auto;
+    flex-direction: column;
+    
+    
+    
+}
+
+#secao1 #div2:hover, #secao1 #div1:hover {
+    border-style: solid;
+    border-radius: 1cm;
+    border-color: #00D861;
+    border-width: 0.1px;
+    box-shadow: 0 0 1em #00D861;
+   
+    
+}
+
+#secao2 {
+    width: 45%;
+    margin: auto;
+}
+
+footer {
+     background-color: #00D861;
+     margin-bottom: 0px;
+     text-align: right; 
+     
+}
