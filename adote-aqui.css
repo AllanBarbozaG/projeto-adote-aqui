@@ -119,4 +119,9 @@ footer {
      margin-bottom: 0px;
      text-align: right; 
      
+     
+}
+
+footer p {
+    font-size: 15px;
 }
