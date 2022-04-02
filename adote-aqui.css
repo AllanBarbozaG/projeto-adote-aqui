@@ -37,18 +37,6 @@ body{
     
     font-size: larger;
     color: rgb(219, 219, 4);
-    
-    
-    
-    
-    
-}
-
-#img-fundo {
-    width: 98.785vw !important;
-    height: 100vh !important;
-    z-index: -1;
-    position: fixed;
 }
 
 .menu {
@@ -67,9 +55,20 @@ span:hover {
     color: rgb(219, 219, 4);
 }
 
+#img-fundo {
+    width: 98.785vw !important;
+    height: 100vh !important;
+    z-index: -1;
+    position: fixed;
+}
+
 #quemsomos {
     width: 75%;
     margin: auto;
+}
+
+#quemsomos h1, p {
+    color: white;
 }
 
 #secao1 {
@@ -112,6 +111,10 @@ span:hover {
     width: 45%;
     
     margin: auto;
+}
+
+#secao2 p {
+    color: white;
 }
 
 footer {
