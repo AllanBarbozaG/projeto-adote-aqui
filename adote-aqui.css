@@ -108,8 +108,7 @@ span:hover {
 }
 
 #secao2 {
-    width: 45%;
-    
+    width: 45%;    
     margin: auto;
 }
 
@@ -118,13 +117,20 @@ span:hover {
 }
 
 footer {
-     background-color: #00D861;
-     margin-bottom: 0px;
-     text-align: right; 
+    background-color: #00D861;
+    text-align: right; 
+    position: absolute;
+    width: 100%;
+    height: 3vh;
+    margin: 0% auto;
+    
+
      
      
 }
 
 footer p {
     font-size: 15px;
+    margin : 0% auto;
+    padding-right: 1%;
 }
