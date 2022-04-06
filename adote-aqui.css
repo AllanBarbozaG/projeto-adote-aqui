@@ -1,9 +1,10 @@
 body{
     margin: 0 auto;
     padding: 0;
-    background-color: black;
     word-wrap: break-word;
     word-wrap: break-word;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
 }
 
 .container1 {
@@ -23,13 +24,13 @@ body{
     margin-left: 2%;
     width: 15%;
     height: auto;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .index {
     flex-flow: row nowrap;
     color: #fffffe;
-    text-decoration: none;
+    
     
 }
 
@@ -43,15 +44,111 @@ body{
 
 .menuSite-nav a {
     color: #fffffe;
-    width: 25%;
+    width: 65%;
     font-size: 20px;
-
-
+    
 }
 
 .menuSite-nav a:hover {
     color: rgb(219, 219, 4);
 }
+
+.galeriaFotosPets-div {
+    background-color: #abd1c6;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+
+
+.galeriaFotosPets-div h1 {
+    align-self: center;
+}
+
+
+
+.galeriaFotosPets-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.fotosPets-a {
+    margin: 0.5%;
+    color: #004643;
+    text-decoration: none;
+    width: 24%;
+    height: 45%;
+    border-width: 1px;
+    border-radius: 0.2cm;
+    box-shadow: 0 0 0.3em #004643;
+    
+}
+
+
+.fotosPets-a:nth-child(1) {
+    background-image: url(./fotos-pets/dog-gaf0163fee_1920.jpg);
+    background-size: cover;
+    
+    
+}
+
+.fotosPets-a:nth-child(2) {
+    background-image: url(./fotos-pets/dog-gc145be2aa_1920.jpg);
+    background-size: cover;
+}
+
+.fotosPets-a:nth-child(3) {
+    background-image: url(./fotos-pets/pet-gdba972121_1920.jpg);
+    background-size: cover;
+}
+
+.fotosPets-a:nth-child(4) {
+    
+}
+
+.fotosPets-a:nth-child(5) {
+    
+}
+
+.fotosPets-a:nth-child(6) {
+    
+}
+
+.fotosPets-a:nth-child(7) {
+    
+}
+
+.fotosPets-a:nth-child(8) {
+    
+}
+
+.fotosPets-a:nth-child(9) {
+    
+}
+
+
+.galeriaFotosPets-div button {
+    width: 15%;
+    align-self: center;
+    height: 10%;
+    flex-wrap: nowrap;
+    border-radius: 0.5cm;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
 
 
 @media (max-width: 320px) { 
